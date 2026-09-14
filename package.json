@@ -1,0 +1,30 @@
+{
+  "name": "@amsintelligence/iconic",
+  "version": "0.1.0",
+  "description": "Pick a Phosphor icon for a short note or to-do. Runs locally in the browser and Node.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "node": "./src/node.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "model",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsintelligence/iconic-js.git"
+  },
+  "keywords": ["icons", "phosphor", "on-device", "text-classification"],
+  "license": "Apache-2.0"
+}
